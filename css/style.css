@@ -8,6 +8,7 @@
   --background-color: #2f303a;
   --button-color: #f5f4fa;
   --section-margin: 94px;
+  --icon-stand-color: #afb1b8;
 }
 
 body {
@@ -35,7 +36,7 @@ a {
   display: flex;
   width: 1200px;
   margin-top: 0;
-  margin-bottom: var(--section-margin);
+  /* margin-bottom: var(--section-margin); */
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -211,10 +212,16 @@ header {
 /* Main */
 
 .title {
+  margin-top: 0;
+  margin-bottom: 10pxs;
   color: var(--title-text-color);
 }
 
 /* DESCRIPTION */
+.description {
+  margin-bottom: var(--section-margin);
+}
+
 .description .title {
   font-weight: 700;
   font-size: 14px;
@@ -223,6 +230,7 @@ header {
 }
 
 .description .text {
+  margin: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -233,7 +241,7 @@ header {
   align-items: center;
   width: 270px;
 
-  outline: 2px solid green;
+  /* outline: 2px solid green; */
 }
 
 .skills:last-child {
@@ -254,20 +262,30 @@ header {
   min-width: 100%;
   width: 70px;
   height: 70px;
-  background-color: var(--button-color);
-  background-size: cover;
   fill: var(--title-text-color);
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
+}
+
+.icon-area {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 30px;
+  min-width: 100%;
+  height: 120px;
+  background-color: var(--button-color);
+  border-radius: 4px;
 }
 
 /* WHAT WE DO */
 .what-we-do {
+  margin-bottom: var(--section-margin);
   flex-direction: column;
   align-items: center;
 }
 
 .section > .second-title {
+  margin-top: 0;
   margin-bottom: 50px;
 
   /* outline: 2px solid green; */
@@ -319,14 +337,15 @@ header {
 }
 
 .team-box {
-  margin-top: 50px;
-  margin-bottom: var(--section-margin);
   display: flex;
   padding: 0;
 }
 
 .team {
+  margin-bottom: var(--section-margin);
   background-color: var(--button-color);
+
+  outline: 1px solid red;
 }
 
 .team > .section {
@@ -357,6 +376,37 @@ header {
 .team-list > h3 {
   margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.icon-stand {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-stand-color);
+}
+
+.icon-stand:last-child {
+  margin: 0;
+}
+
+.network {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 10px;
+
+  width: 40px;
+  height: 40px;
+
+  outline: 1px solid red;
+}
+
+.network:last-child {
+  margin: 0;
+}
+
+.team-stand {
+  box-shadow: ;
 }
 
 /* FOOTER */
