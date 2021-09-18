@@ -326,6 +326,9 @@ header {
 }
 
 .team .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -338,6 +341,7 @@ header {
 
 .team-box {
   display: flex;
+  margin-bottom: 94px;
   padding: 0;
 }
 
@@ -345,7 +349,7 @@ header {
   margin-bottom: var(--section-margin);
   background-color: var(--button-color);
 
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .team > .section {
@@ -361,6 +365,10 @@ header {
   padding: 0;
   margin-right: 30px;
 
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+
   /* outline: 2px solid green; */
 }
 
@@ -368,12 +376,19 @@ header {
   margin: 0;
 }
 
-.team-list > p {
-  margin-top: 0;
-  margin-bottom: 30px;
+.team-stand-box {
+  display: flex;
+  padding: 0;
 }
 
-.team-list > h3 {
+.team-stand > .text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.team-stand > .title {
+  text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -381,11 +396,22 @@ header {
 .icon-stand {
   width: 20px;
   height: 20px;
-  fill: var(--icon-stand-color);
+  fill: inherit;
+
+  outline: 1px solid red;
 }
 
-.icon-stand:last-child {
+/* .icon-stand:last-child {
   margin: 0;
+} */
+
+.network-list {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.network-list:last-child {
+  margin-right: 0;
 }
 
 .network {
@@ -393,20 +419,63 @@ header {
   align-items: center;
   justify-content: center;
 
-  margin-right: 10px;
-
   width: 40px;
   height: 40px;
+  fill: var(--icon-stand-color);
 
-  outline: 1px solid red;
+  outline: 1px solid green;
 }
 
-.network:last-child {
-  margin: 0;
+.network:hover {
+  background-color: var(--accent-color);
+  fill: var(--wite-color);
+  border-radius: 50% 50%;
 }
 
-.team-stand {
-  box-shadow: ;
+/* CLIENTS */
+.client-logo {
+  fill: inherit;
+  /* fill: var(--icon-stand-color); */
+  width: 106px;
+  height: 60px;
+
+  /* outline: 1px solid green; */
+}
+
+.clients > .title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.client-a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-stand-color);
+  border-radius: 4px;
+  fill: var(--icon-stand-color);
+}
+
+.client-list {
+  margin-right: 30px;
+}
+
+.client-list:last-child {
+  margin-right: 0;
+}
+
+a.client-a:hover {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.client-box {
+  margin-bottom: var(--section-margin);
 }
 
 /* FOOTER */
