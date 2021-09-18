@@ -36,13 +36,10 @@ a {
   display: flex;
   width: 1200px;
   margin-top: 0;
-  /* margin-bottom: var(--section-margin); */
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-
-  /* outline: 2px solid red; */
 }
 
 .header .section {
@@ -55,16 +52,12 @@ a {
 }
 
 .header .section > nav.nav > .logo {
-  /* display: inline-block; */
-
   font-family: Raleway, sans-serif;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  /* outline: 2px solid green; */
 }
 
 .logo-span {
@@ -101,8 +94,6 @@ a.link:focus {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 93px;
-
-  /* outline: 2px solid green; */
 }
 
 .contacts {
@@ -110,8 +101,6 @@ a.link:focus {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
-
-  /* outline: 2px solid green; */
 }
 
 .icon-envelope {
@@ -160,8 +149,6 @@ header {
   margin-left: auto;
 
   text-align: center;
-
-  /* outline: 2px solid red; */
 }
 
 .hero {
@@ -240,8 +227,6 @@ header {
   margin-right: 30px;
   align-items: center;
   width: 270px;
-
-  /* outline: 2px solid green; */
 }
 
 .skills:last-child {
@@ -263,8 +248,6 @@ header {
   width: 70px;
   height: 70px;
   fill: var(--title-text-color);
-
-  /* outline: 2px solid red; */
 }
 
 .icon-area {
@@ -287,8 +270,6 @@ header {
 .section > .second-title {
   margin-top: 0;
   margin-bottom: 50px;
-
-  /* outline: 2px solid green; */
 }
 
 .demo-box {
@@ -300,8 +281,6 @@ header {
 
 .demo-list {
   margin-right: 30px;
-
-  /* outline: 2px solid green; */
 }
 
 .demo-list:last-child {
@@ -316,7 +295,6 @@ header {
 
 .second-title {
   margin: var(--section-margin) 0 0 0;
-  /* padding-top: var(--section-margin); */
 
   color: var(--title-text-color);
   font-weight: 700;
@@ -348,8 +326,6 @@ header {
 .team {
   margin-bottom: var(--section-margin);
   background-color: var(--button-color);
-
-  /* outline: 1px solid red; */
 }
 
 .team > .section {
@@ -368,8 +344,6 @@ header {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 3px;
-
-  /* outline: 2px solid green; */
 }
 
 .team-list:last-child {
@@ -397,13 +371,7 @@ header {
   width: 20px;
   height: 20px;
   fill: inherit;
-
-  outline: 1px solid red;
 }
-
-/* .icon-stand:last-child {
-  margin: 0;
-} */
 
 .network-list {
   margin-right: 10px;
@@ -422,8 +390,6 @@ header {
   width: 40px;
   height: 40px;
   fill: var(--icon-stand-color);
-
-  outline: 1px solid green;
 }
 
 .network:hover {
@@ -435,11 +401,8 @@ header {
 /* CLIENTS */
 .client-logo {
   fill: inherit;
-  /* fill: var(--icon-stand-color); */
   width: 106px;
   height: 60px;
-
-  /* outline: 1px solid green; */
 }
 
 .clients > .title {
@@ -506,8 +469,6 @@ a.client-a:hover {
 
 .address {
   margin-top: 20px;
-
-  /* outline: 2px solid greenyellow; */
 }
 
 .address ul {
@@ -518,6 +479,29 @@ a.client-a:hover {
 .footer-padding {
   margin-top: 60px;
   margin-bottom: 60px;
+}
+
+.footer-network > .title {
+  margin-top: 72px;
+
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--wite-color);
+}
+
+.footer-network {
+  margin-left: 70px;
+}
+
+.footer-network .network {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50% 50%;
+  fill: var(--wite-color);
+}
+
+.footer-network .network:hover {
+  background-color: var(--accent-color);
 }
 
 /* PORTFOLIO */
@@ -552,8 +536,6 @@ a.client-a:hover {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  /* outline: 2px solid green; */
 }
 
 .portfolio-text {
@@ -564,8 +546,6 @@ a.client-a:hover {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
-  /* outline: 2px solid green; */
 }
 
 .button-set {
@@ -601,8 +581,6 @@ a.client-a:hover {
 
 .portfolio img {
   display: block;
-
-  /* outline: 2px solid green; */
 }
 
 .poster-text {
